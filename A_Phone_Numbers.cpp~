@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+ int main()
+ {
+ 	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+ 	int tst;
+ 	int x;
+ 	float a,b,c,d,e;
+ 	cin>>tst;
+ 	while(tst--)
+ 	
+ 	{
+ 		cin>>a>>b>>c>>d;
+ 		float aa=c/a;
+ 		float bb=d/b;
+ 		if((aa)<(bb))
+ 	
+ 		cout<<-1<<endl;
+ 		if((aa)>(bb))
+ 		
+ 		cout<<1<<endl;
+ 		if((aa)==(bb))
+ 	
+ 		cout<<0<<endl;
+ 		
+ 	
+	 }
+ }
